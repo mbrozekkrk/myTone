@@ -7,12 +7,13 @@ namespace App\Controller;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
 
-class OffertsController extends  AbstractController
+class SecurityController extends AbstractController
 {
     /**
-     * @Route("/")
+     * @Route("/login")
      */
-    public function homepage(){
-        return $this->render('offerts/base.html.twig');
+    public function login(){
+        return $this->render('login.html.twig');
     }
+
 }
