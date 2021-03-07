@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        {% block stylesheets %}
+            {#{{ encore_entry_link_tags('app') }}#}
+            <link rel="stylesheet" href="/css/home.css">
+        {% endblock %}
+
+        {% block javascripts %}
+            {#{{ encore_entry_script_tags('app') }}#}
+            <script src="/js/test.js"></script>
+        {% endblock %}
+    </head>
+    <body>
+    {% embed "logo.html.twig" %}
+    {% endembed %}
+        {% block body %}
+            <div class="title">
+                <div class="greeting">
+                    <h1>Hi, there.</h1>
+                </div>
+            </div>
+        {% endblock %}
+    {% embed "homepage/offerts.html.twig" %}
+    {% endembed %}
+    </body>
+</html>

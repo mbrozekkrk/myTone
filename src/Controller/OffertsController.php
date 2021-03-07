@@ -13,6 +13,6 @@ class OffertsController extends  AbstractController
      * @Route("/")
      */
     public function homepage(){
-        return $this->render('offerts/base.html.twig');
+        return $this->render('homepage/home.html.twig');
     }
 }

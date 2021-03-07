@@ -2,32 +2,57 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>{% block title %}Welcome!{% endblock %}</title>
     {# Run `composer require symfony/webpack-encore-bundle`
            and uncomment the following Encore helpers to start using Symfony UX #}
     {% block stylesheets %}
         {#{{ encore_entry_link_tags('app') }}#}
         <link rel="stylesheet" href="/css/login.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Brawler&family=Indie+Flower&family=Life+Savers&family=Short+Stack&display=swap" rel="stylesheet">
+
     {% endblock %}
 
     {% block javascripts %}
         {#{{ encore_entry_script_tags('app') }}#}
 
-        <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
+        <script src="https://unpkg.com/vue@next"></script>
         <script src="/js/login.js"></script>
+
+        {{ encore_entry_script_tags('login') }}
     {% endblock %}
 </head>
 <body>
-
 {% block body %}
-    <div class = "info">
+    {% embed "logo.html.twig" %}
+    {% endembed %}
 
-    </div>
-    <div class="login">
-        <form>
-            <input>
-            <input>
-        </form>
+    <div class="login-container">
+        <div class = "info">
+            <div class="test"></div>
+            <div class="text">
+                <h1>Hello.</h1>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    It has survived not only five centuries,
+                    but also the leap into electronic typesetting, remaining essentially unchanged
+
+                </p>
+            </div>
+
+        </div>
+        <div class="login-data">
+            <form>
+                <input type="email" placeholder="E-mail">
+                <input type="password" placeholder="Password">
+                <input type="submit" class="submit" value="Sign in">
+            </form>
+            <h3>Or</h3>
+            <p><span id="create">Create </span><span id="account">account</span></p>
+
+        </div>
+
     </div>
 
 {% endblock %}
