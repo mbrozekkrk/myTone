@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+
+    {% block stylesheets %}
+        {#{{ encore_entry_link_tags('app') }}#}
+        <link rel="stylesheet" href="/css/register.css">
+    {% endblock %}
+
+    {% block javascripts %}
+        {#{{ encore_entry_script_tags('app') }}#}
+        <script src="/js/test.js"></script>
+    {% endblock %}
+</head>
+<body>
+{% embed "logo.html.twig" %}
+{% endembed %}
+{% block body %}
+    <div class="register-container">
+        <form action="">
+            <h1>Create super account!</h1>
+            <input type="email" name="email" placeholder="email">
+            <input type="password" name="password" placeholder="password">
+            <input type="password" name="confirm-password" placeholder="confirm password">
+            <label for="profession">
+                Account for:
+            </label>
+            <select id="profession">
+                <option value="firm">Event firm</option>
+                <option value="artist">Artist</option>
+            </select>
+            <button type="submit" >Send</button>
+        </form>
+    </div>
+{% endblock %}
+
+</body>
+</html>

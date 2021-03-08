@@ -1,0 +1,64 @@
+body{
+    margin:0;
+    text-align: center;
+}
+
+.register-container{
+    margin-top: 2rem;
+    width:50%;
+    height:80vh;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.register-container form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-container form input{
+    width:20vw;
+    margin-bottom: 1rem;
+    align-self: center;
+    height: 6vh;
+    margin-bottom:1rem;
+    border-radius: 1rem;
+    border:none;
+    -moz-box-shadow:    inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow:         inset 0 0 10px #000000;
+    font-family: Arial;
+    padding-left: 1rem;
+
+}
+.register-container form label,select{
+    width:20vw;
+    margin-bottom: 1rem;
+    font-family: Arial;
+
+}
+.register-container select{
+    align-self: center;
+    height: 6vh;
+    border-radius: 1rem;
+    border:none;
+    -moz-box-shadow:    inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow:         inset 0 0 10px #000000;
+    padding-left: 1rem;
+}
+.register-container button{
+    height: 5vh;
+    width: 10vw;
+    color: white;
+    border:none;
+    border-radius: 1.2rem;
+    background-color: black;
+    font-family: 'Life Savers', cursive;
+    font-size: 1.3rem;
+}

@@ -10,7 +10,11 @@ body{
     font-family: 'Life Savers', cursive;
 }
 
-
+.login-data a{
+    text-underline: none;
+    text-decoration: none;
+    color:black;
+}
 
 .login-container{
     height: 90vh;

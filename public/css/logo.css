@@ -1,6 +1,10 @@
 body {
     background-color: #D58B7F;
 }
+.logo a{
+    text-decoration: none;
+    text-underline: none;
+}
 .logo h1{
     color:white;
     padding-top:2vh;
