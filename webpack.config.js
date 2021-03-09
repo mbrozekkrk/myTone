@@ -24,11 +24,21 @@ Encore
      * Each entry will result in one JavaScript file (e.g. app.js)
      * and one CSS file (e.g. app.css) if your JavaScript imports CSS.
      */
+
     .addEntry('app', './assets/app.js')
-    .addEntry('login', './assets/js/login.js')
+    .addEntry('login_js', './assets/js/login.js')
+
+    .addEntry('register','./assets/styles/register.css')
+    .addEntry('login','./assets/styles/login.css')
+
+    .addEntry('menu','./assets/styles/menu.css')
+    .addEntry('offerts','./assets/styles/offerts.css')
+    .addEntry('home','./assets/styles/home.css')
+
 
     // enables the Symfony UX Stimulus bridge (used in assets/bootstrap.js)
     .enableStimulusBridge('./assets/controllers.json')
+    .enableVueLoader()
 
     // When enabled, Webpack "splits" your files into smaller pieces for greater optimization.
     .splitEntryChunks()
@@ -62,7 +72,7 @@ Encore
 
     // enables Sass/SCSS support
     //.enableSassLoader()
-    .enableVueLoader();
+
 
     // uncomment if you use TypeScript
     //.enableTypeScriptLoader()

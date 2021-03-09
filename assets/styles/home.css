@@ -3,7 +3,7 @@ body{
 }
 
 .title{
-    background-image: url("../build/people.jpg");
+    background-image: url("../../public/build/people.jpg");
     height: 60vh;
     background-size: 80vw 70vh;
     background-position: center bottom;

@@ -6,7 +6,7 @@
            and uncomment the following Encore helpers to start using Symfony UX #}
     {% block stylesheets %}
         {#{{ encore_entry_link_tags('app') }}#}
-        <link rel="stylesheet" href="/css/login.css">
+        {{ encore_entry_link_tags('login') }}
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Brawler&family=Indie+Flower&family=Life+Savers&family=Short+Stack&display=swap" rel="stylesheet">
 
@@ -15,19 +15,20 @@
     {% block javascripts %}
         {#{{ encore_entry_script_tags('app') }}#}
 
-        <script src="https://unpkg.com/vue@next"></script>
-        <script src="/js/login.js"></script>
+<!--        <script src="https://unpkg.com/vue@next"></script>-->
+        <!--<script src="/js/login_js.js"></script>-->
 
-        {{ encore_entry_script_tags('login') }}
+        {{ encore_entry_script_tags('login_js') }}
     {% endblock %}
 </head>
 <body>
 {% block body %}
-    {% embed "logo.html.twig" %}
+    {% embed "app.html.twig" %}
     {% endembed %}
 
     <div class="login-container">
         <div class = "info">
+            <div class="vue-test" v-bind:title ="legend"></div>
             <div class="test"></div>
             <div class="text">
                 <h1>Hello.</h1>

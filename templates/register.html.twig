@@ -5,7 +5,7 @@
 
     {% block stylesheets %}
         {#{{ encore_entry_link_tags('app') }}#}
-        <link rel="stylesheet" href="/css/register.css">
+        {{ encore_entry_link_tags('register') }}
     {% endblock %}
 
     {% block javascripts %}
@@ -14,7 +14,7 @@
     {% endblock %}
 </head>
 <body>
-{% embed "logo.html.twig" %}
+{% embed "apphtml.twig" %}
 {% endembed %}
 {% block body %}
     <div class="register-container">

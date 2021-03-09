@@ -1,3 +1,20 @@
 body {
-    background-color: lightgray;
+    background-color: #D58B7F;
+}
+.logo a{
+    text-decoration: none;
+    text-underline: none;
+}
+.logo h1{
+    color:white;
+    padding-top:2vh;
+    font-size: 2.3rem;
+    text-align: center;
+    background-color: black;
+    height: 8vh;
+    margin:0;
+}
+.logo #my{
+    color: #D58B7F;
+
 }

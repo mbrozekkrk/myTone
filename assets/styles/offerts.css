@@ -1,0 +1,56 @@
+.event {
+    background-color: black;
+    margin:1rem;
+    width:25%;
+    height:45vh;
+    /*border-radius: 1rem;*/
+    text-align: center;
+    -webkit-box-shadow: 8px 12px 15px 5px rgba(68, 68, 68, 0.7);
+    -moz-box-shadow:    8px 12px 15px 5px rgba(68, 68, 68, 0.7);
+    box-shadow:         8px 12px 15px 5px rgba(68, 68, 68, 0.7);
+
+}
+.event .event-details{
+    background-color: white;
+    height: 48%;
+    box-shadow: 0 0 6px 0px white;
+
+}
+.event .event-details img{
+    height: 10vh;
+}
+.event .event-details h1{
+    padding:0.2rem;
+    background-color: rgba(1,2,3,0.8);
+    color: #D58B7F;
+}
+.event .event-details p{
+    font-size: 1.5rem;
+    color:black;
+}
+.event .date{
+    color:white;
+    display: flex;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+}
+.event i{
+    padding: 0.3rem;
+}
+.event button{
+    height: 5vh;
+    width: 7vw;
+    color: white;
+    border:none;
+    border-radius: 1rem;
+    background-color: #D58B7F;
+    font-family: 'Life Savers', cursive;
+    font-size: 1.3rem;
+}
+.event .date p{
+    font-size: 1.7rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(241, 242, 243, 0.5);
+    padding: 0.3rem;
+}

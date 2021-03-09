@@ -1,17 +1,22 @@
-//import Vue from 'vue';
-import App from './pages/offerts';
-import { h } from 'vue'
+import Vue from 'vue';
 
 console.log('js dziala');
 
-const { createApp, ref, computed } = Vue;
-const app = createApp({
-    delimiters: ['${', '}'],
-    render(h){
-        return h(App);
-    }
-
-});
-app.mount(".test");
-
-
+var app = new Vue({
+    el: '.vue-test',
+    data(){
+        return{
+            name:'test vue'
+        };
+    },
+    template:'<h1>{{ name }}</h1>'
+})
+export default {
+    name:'test',
+    data(){
+        return{
+            legend:'hahahahah'
+        };
+    },
+}
+//window.app = app;

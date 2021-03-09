@@ -1,3 +1,8 @@
+<head>
+    {{ encore_entry_link_tags('offerts') }}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+</head>
+
 <body>
 
 {% block body %}
@@ -8,6 +13,19 @@
             <br>
             Play with <span id="your-tone">your tone</span>!
         </p>
+    </div>
+
+    <div class="event">
+        <div class="event-details">
+            <img src="../../public/build/note.png" alt="">
+            <h1>Event agency</h1>
+            <p> Short description</p>
+        </div>
+        <div class="date">
+
+            <p> <i class="far fa-calendar-check"></i>22.03.2022</p>
+        </div>
+        <button type="submit"> Apply</button>
     </div>
 
 {% endblock %}

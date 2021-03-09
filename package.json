@@ -1,14 +1,15 @@
 {
     "devDependencies": {
         "@symfony/stimulus-bridge": "^2.0.0",
-        "@symfony/webpack-encore": "^1.0.0",
+        "@symfony/webpack-encore": "^1.1.2",
         "@vue/compiler-sfc": "^3.0.7",
         "core-js": "^3.0.0",
         "file-loader": "6.0.0",
         "regenerator-runtime": "^0.13.2",
         "stimulus": "^2.0.0",
-        "vue": "3.0.2",
-        "vue-loader": "16.1.0",
+        "vue": "^2.6.12",
+        "vue-loader": "^15.9.6",
+        "vue-template-compiler": "^2.6.12",
         "webpack-notifier": "^1.6.0"
     },
     "license": "UNLICENSED",
@@ -18,5 +19,8 @@
         "dev": "encore dev",
         "watch": "encore dev --watch",
         "build": "encore production --progress"
+    },
+    "dependencies": {
+        "vue-router": "^3.5.1"
     }
 }
