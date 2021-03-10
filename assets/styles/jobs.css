@@ -1,3 +1,54 @@
 body{
+    margin:0;
+}
+.welcome-msg{
+    height:30vh;
+    text-align: center;
     background-color: black;
+}
+.welcome-msg h1{
+    font-size: 4rem;
+    color: white;
+}
+.welcome-msg #name{
+    color: #D58B7F;
+}
+.welcome-msg p{
+    color:white;
+    font-size: 2rem;
+}
+.jobs-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.jobs-container .btn-switch{
+    align-self:center;
+    font-size: 1.2rem;
+    color: white;
+    width: 8vw;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid white;
+    background-color:#D58B7F;
+}
+.jobs .buttons{
+    align-self:center;
+}
+.jobs-container .jobs{
+    border: 2px solid black;
+    width: 50vw;
+    border-radius: 1rem;
+    margin: 2rem;
+}
+.jobs-container .jobs .job{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 2rem;
+    background-color: rgba(244, 246, 248, 0.5);
+}
+
+.jobs-container .jobs .job p{
+    text-align: center;
 }

@@ -1,0 +1,32 @@
+<head>
+    {% block stylesheets %}
+        {{ encore_entry_link_tags('app') }}
+        {{ encore_entry_link_tags('jobs') }}
+    {% endblock %}
+</head>
+
+<body>
+
+{% block body %}
+    <div class="welcome-msg">
+        <img src="../../public/build/note.png" alt="">
+        <h1>Hi <span id="name">Ann</span>!</h1>
+        <p>Here will be daily tips, advice or quotes.</p>
+    </div>
+    <div class="jobs-container">
+        <h1>My jobs</h1>
+        <div class="buttons">
+            <button class ='btn-switch'>Done</button>
+            <button class ='btn-switch'>To do</button>
+        </div>
+        <div class="jobs">
+            <div class="job">
+                    <p>valentines day</p>
+                    <p>25.02.2021</p>
+                    <p><a href="#">view more</a></p>
+            </div>
+        </div>
+
+    </div>
+{% endblock %}
+</body>
