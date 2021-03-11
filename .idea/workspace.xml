@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7819b885-3afe-41b8-a923-486bd30d4569" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Controller/UserPanelController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/user-panel/jobs.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/myToneProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/myToneProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/jobs.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/jobs.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/user-panel/jobs.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/user-panel/jobs.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,6 +115,8 @@
       <workItem from="1615215930274" duration="11897000" />
       <workItem from="1615303236504" duration="5398000" />
       <workItem from="1615382385093" duration="1167000" />
+      <workItem from="1615452308851" duration="1249000" />
+      <workItem from="1615474054196" duration="1296000" />
     </task>
     <task id="LOCAL-00001" summary="add jobs.css">
       <created>1615305289690</created>

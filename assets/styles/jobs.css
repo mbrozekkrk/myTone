@@ -18,27 +18,40 @@ body{
     font-size: 2rem;
 }
 .jobs-container{
+    text-align: center;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
 }
-.jobs-container .btn-switch{
-    align-self:center;
+.jobs-container h1{
+    text-align: left;
+    padding-left: 4rem;
+    font-size: 3rem;
+    color: white;
+}
+.jobs-container .btn-switch {
+    align-self: center;
     font-size: 1.2rem;
     color: white;
     width: 8vw;
     padding: 0.5rem;
     border-radius: 0.5rem;
     border: 2px solid white;
-    background-color:#D58B7F;
+    background-color: #D58B7F;
+}
+.jobs-container .btn-switch:focus{
+    color: black;
+    border: 2px solid black;
+    border-radius: 0.5rem;
 }
 .jobs .buttons{
     align-self:center;
 }
 .jobs-container .jobs{
-    border: 2px solid black;
-    width: 50vw;
+    align-self:center;
+    border: 1px solid black;
+    width: 60vw;
     border-radius: 1rem;
     margin: 2rem;
 }
@@ -51,4 +64,10 @@ body{
 
 .jobs-container .jobs .job p{
     text-align: center;
+}
+.jobs-container .jobs .job p a{
+    margin-bottom: 1rem;
+    text-underline: none;
+    text-decoration: none;
+    color: #b36563;
 }
