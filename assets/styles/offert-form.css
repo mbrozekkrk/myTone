@@ -1,0 +1,111 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+.form-container{
+    margin-top: 2rem;
+    display: flex;
+    align-self: center;
+}
+.form-container .tips{
+    width: 30vw;
+    text-align: center;
+    height: 50%;
+    background: linear-gradient(176deg, rgba(14,1,7,1) 0%, rgba(213,139,127,1) 100%);
+    box-shadow: -20px -20px 20px -40px #D58B7F;
+}
+
+.triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid black;
+
+}
+
+body .tips  ul{
+    list-style-type: none;
+    color: white;
+    padding: 0.5rem;
+}
+ul li:before {
+    content: '✓';
+    padding-right: 0.5rem;
+}
+body .tips  ul li{
+    margin: 0.5rem;
+
+}
+body .tips #try{
+    color:#D58B7F;
+}
+.artist-form{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    height: 80vh;
+    width: 50vw;
+    background: rgb(14,1,7);
+    background: linear-gradient(176deg, rgba(14,1,7,1) 0%, rgba(213,139,127,1) 100%);
+    box-shadow: -20px 20px 20px -40px #D58B7F;
+    margin-top: 10vh;
+}
+
+#offert_form_name, #offert_form_skills{
+    width:30vw;
+    margin-bottom: 1rem;
+    align-self: center;
+    height: 6vh;
+    border-radius: 1rem;
+    border:none;
+    -moz-box-shadow:    inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow:         inset 0 0 10px #000000;
+    font-family: Arial;
+    padding: 1rem;
+    background-color: #D58B7F;
+}
+#offert_form_presentation{
+    background-color: #D58B7F;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    align-self: center;
+    border-radius: 1rem;
+    border:none;
+    -moz-box-shadow:    inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow:         inset 0 0 10px #000000;
+    font-family: Arial;
+    padding-left: 1rem;
+    height: 20vh;
+    width:30vw;
+}
+
+#offert_form_submit {
+    height: 5vh;
+    width: 10vw;
+    color: white;
+    border:none;
+    border-radius: 1.2rem;
+    background-color: black;
+    font-family: 'Life Savers', cursive;
+    font-size: 1.3rem;
+}
+
+#offert_form_a, #offert_form_content:focus{
+    text-decoration: none;
+
+}
+#offert_form_isAttending{
+    margin-bottom: 1rem;
+    border-radius: 0.3rem;
+}
+
+#offert_form label{
+    display: none;
+}

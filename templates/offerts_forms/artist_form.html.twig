@@ -1,0 +1,33 @@
+
+<html>
+    <head>
+        {% block stylesheets %}
+            {#{{ encore_entry_link_tags('app') }}#}
+            {{ encore_entry_link_tags('offert-form') }}
+            {{ encore_entry_link_tags('home') }}
+        {% endblock %}
+    </head>
+    {% block body%}
+
+        <div class="form-container">
+            <div class="tips triangle-up">
+                {% embed "app.html.twig" %}
+                {% endembed %}
+                <h1 id="try"> Let's try and apply!</h1>
+                <p>Here are some tips to follow:</p>
+                <ul>
+                    <li>Be concrete</li>
+                    <li>Give conditions on which you are prepared</li>
+                    <li>Be ready to perform </li>
+                    <li>Have fun!</li>
+                </ul>
+                <img src="../../assets/img/guitarist.png" alt="">
+            </div>
+            <div class="artist-form">
+                {{ form_start(offertForm) }}
+                    {{ form_widget(offertForm) }}
+                {{ form_end(offertForm) }}
+            </div>
+        </div>
+    {%  endblock  %}
+</html>

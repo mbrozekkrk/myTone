@@ -35,6 +35,7 @@ Encore
     .addEntry('offerts','./assets/styles/offerts.css')
     .addEntry('home','./assets/styles/home.css')
     .addEntry('jobs','./assets/styles/jobs.css')
+    .addEntry('offert-form','./assets/styles/offert-form.css')
 
 
     // enables the Symfony UX Stimulus bridge (used in assets/bootstrap.js)
