@@ -10,7 +10,7 @@
 
     {% block javascripts %}
         {#{{ encore_entry_script_tags('app') }}#}
-        <script src="/js/test.js"></script>
+      {{ encore_entry_script_tags('register_js') }}
     {% endblock %}
 </head>
 <body>
@@ -18,7 +18,7 @@
 {% endembed %}
 {% block body %}
     <div class="register-container">
-        <form action="">
+        <!--<form action="">
             <h1>Create super account!</h1>
             <input type="email" name="email" placeholder="email">
             <input type="password" name="password" placeholder="password">
@@ -31,7 +31,14 @@
                 <option value="artist">Artist</option>
             </select>
             <button type="submit" >Send</button>
-        </form>
+        </form>-->
+
+        {{ form_start(registerForm) }}
+            {{ form_widget(registerForm) }}
+        <p> Your skills: {{ "{{ skills }}" }}</p>
+        {{ form_end(registerForm) }}
+
+    </div>
     </div>
 {% endblock %}
 

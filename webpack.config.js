@@ -27,6 +27,7 @@ Encore
 
     .addEntry('app', './assets/app.js')
     .addEntry('login_js', './assets/js/login.js')
+    .addEntry('register_js', './assets/js/register.js')
 
     .addEntry('register','./assets/styles/register.css')
     .addEntry('login','./assets/styles/login.css')
