@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7819b885-3afe-41b8-a923-486bd30d4569" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/js/register.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/NewUser.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/register.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/register.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/SecurityController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/NewUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Form/OffertFormType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/OffertFormType.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/register.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/register.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +130,8 @@
       <workItem from="1615474054196" duration="1296000" />
       <workItem from="1615476318594" duration="6739000" />
       <workItem from="1615548571544" duration="7825000" />
-      <workItem from="1615713001522" duration="9141000" />
+      <workItem from="1615713001522" duration="9215000" />
+      <workItem from="1615829444987" duration="6879000" />
     </task>
     <task id="LOCAL-00001" summary="add jobs.css">
       <created>1615305289690</created>
@@ -150,14 +151,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="add jobs.css" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1474" y="-90" key="#com.intellij.ide.util.MemberChooser" timestamp="1615718077416">
+    <state x="-1474" y="-90" key="#com.intellij.ide.util.MemberChooser" timestamp="1615834277069">
       <screen x="-1920" y="-113" width="1280" height="680" />
     </state>
-    <state x="-1474" y="-90" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860/-1920.-113.1280.680@-1920.-113.1280.680" timestamp="1615718077416" />
-    <state x="-1546" y="-113" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1615715260992">
+    <state x="-1474" y="-90" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860/-1920.-113.1280.680@-1920.-113.1280.680" timestamp="1615834277069" />
+    <state x="-1546" y="-113" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1615834425165">
       <screen x="-1920" y="-113" width="1280" height="680" />
     </state>
-    <state x="-1546" y="-113" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.860/-1920.-113.1280.680@-1920.-113.1280.680" timestamp="1615715260992" />
+    <state x="-1546" y="-113" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.860/-1920.-113.1280.680@-1920.-113.1280.680" timestamp="1615834425165" />
     <state x="-1520" y="33" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1615714453346">
       <screen x="-1920" y="-113" width="1280" height="680" />
     </state>

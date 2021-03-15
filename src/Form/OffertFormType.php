@@ -37,7 +37,7 @@ class OffertFormType extends AbstractType
             ])
             ->add('skills',TextType::class,[
                 'attr'=>[
-                    'placeholder'=>'Type skill and press Enter',
+                    'placeholder'=>'Type skill and press Comma',
                 ],
             ])
             ->add('submit', SubmitType::class)

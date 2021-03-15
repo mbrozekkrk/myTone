@@ -1,17 +1,35 @@
 body{
     margin:0;
     text-align: center;
+
 }
 
 .register-container{
+    display: flex;
+    align-self: center;
     margin-top: 2rem;
     width:50%;
     height:80vh;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 2rem;
-    display: flex;
     justify-content: center;
+    align-items: center;
 
+}
+.register-container .form-data{
+    justify-content: center;
+    align-self: center;
+}
+.register-container .form-data label{
+    display: none;
+
+}
+.register-container .show-skills{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    align-items: center;
 }
 
 .register-container form{
@@ -39,6 +57,7 @@ body{
 .register-container form label,select{
     width:20vw;
     margin-bottom: 1rem;
+    padding-right: 0.5rem;
     font-family: Arial;
 
 }
@@ -52,7 +71,11 @@ body{
     box-shadow:         inset 0 0 10px #000000;
     padding-left: 1rem;
 }
-.register-container button{
+#form_choice{
+    width: 7vw;
+
+}
+.register-container .create-btn{
     height: 5vh;
     width: 10vw;
     color: white;
@@ -61,4 +84,24 @@ body{
     background-color: black;
     font-family: 'Life Savers', cursive;
     font-size: 1.3rem;
+}
+body .register-container > form .allSkills{
+    display: flex;
+
+}
+.register-container .form-data{
+    border-right: 1px solid black;
+    padding: 2rem;
+}
+body .register-container  .skill{
+    border: 1px solid black;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    margin:0.5rem
+}
+body .register-container .skill button{
+    background-color: #D58B7F;
+    border:none;
+    color:white;
+    cursor: pointer;
 }

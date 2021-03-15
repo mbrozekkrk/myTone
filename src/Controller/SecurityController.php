@@ -4,7 +4,7 @@
 namespace App\Controller;
 
 
-use App\Entity\NewUser;
+use App\Entity\User;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
 use Symfony\Component\Form\Extension\Core\Type\PasswordType;
@@ -31,26 +31,52 @@ class SecurityController extends AbstractController
     }
 
     public function registerForm(){
-        $user = new NewUser();
+        $user = new User();
 
         return $form = $this->createFormBuilder($user)
-            ->add('login', TextType::class)
-            ->add('password',PasswordType::class)
+            ->add('login', TextType::class,[
+                'attr'=>[
+                    "placeholder" => 'Login'
+                ]
+            ])
+            ->add('password',PasswordType::class,[
+                'attr'=>[
+                    "placeholder" => 'Password'
+                ]
+            ])
+            ->add('confirmPassword',PasswordType::class,[
+                'attr'=>[
+                    "placeholder" => 'Confirm password'
+                ]
+            ])
             ->add('choice', ChoiceType::class,[
+                'label' => "Account type",
                 'choices'=>[
                     'None' => true,
                     'Event firm' => true,
                     'Artist' => 'true'
+                ],
+                'attr'=>[
+                    "class"=>'choice'
                 ]
+
             ])
             ->add('skills', TextType::class, [
                 'label' => "Skills",
                 'attr' => [
-                    'v-model' => "skills"
+                    'v-model' => "skills",
+                    '@keyup' => "addSkill",
+                    "placeholder" => 'Add skill'
+
                 ]
             ])
-            ->add('addedSkills', TextType::class)
-            ->add('save', SubmitType::class, ['label' => 'Create'])
+            ->add('save', SubmitType::class,
+                [
+                    'label' => 'Create',
+                'attr' => [
+                    'class' =>'create-btn'
+                ]
+                ])
             ->getForm();
 
     }

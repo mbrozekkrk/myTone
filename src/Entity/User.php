@@ -4,7 +4,7 @@
 namespace App\Entity;
 
 
-class NewUser
+class User
 {
 
     protected $login;
@@ -12,6 +12,23 @@ class NewUser
     protected  $choice;
     protected $skills;
     protected $addedSkills;
+    protected $confirmPassword;
+
+    /**
+     * @return mixed
+     */
+    public function getConfirmPassword()
+    {
+        return $this->confirmPassword;
+    }
+
+    /**
+     * @param mixed $confirmPassword
+     */
+    public function setConfirmPassword($confirmPassword): void
+    {
+        $this->confirmPassword = $confirmPassword;
+    }
 
     /**
      * @return mixed

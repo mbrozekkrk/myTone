@@ -18,25 +18,24 @@
 {% endembed %}
 {% block body %}
     <div class="register-container">
-        <!--<form action="">
-            <h1>Create super account!</h1>
-            <input type="email" name="email" placeholder="email">
-            <input type="password" name="password" placeholder="password">
-            <input type="password" name="confirm-password" placeholder="confirm password">
-            <label for="profession">
-                Account for:
-            </label>
-            <select id="profession">
-                <option value="firm">Event firm</option>
-                <option value="artist">Artist</option>
-            </select>
-            <button type="submit" >Send</button>
-        </form>-->
+        <div class="form-data">
+            <h1>Hello, dear.</h1>
+            {{ form_start(registerForm) }}
+                {{ form_widget(registerForm) }}
+            {{ form_end(registerForm) }}
+        </div>
 
-        {{ form_start(registerForm) }}
-            {{ form_widget(registerForm) }}
-        <p> Your skills: {{ "{{ skills }}" }}</p>
-        {{ form_end(registerForm) }}
+        <div class="show-skills">
+            <h1>Your skills:</h1>
+            <div v-if="skillsArray.length<=10" class="allSkills">
+               <div  class="skill"  v-for="skill in skillsArray" :key="skills"  >
+                   {{ "{{ skill }}" }}
+                   <button v-on:click="removeElement(skill)">X</button>
+               </div>
+            </div>
+            <p v-else> Too much!</p>
+        </div>
+
 
     </div>
     </div>
