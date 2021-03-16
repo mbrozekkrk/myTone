@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7819b885-3afe-41b8-a923-486bd30d4569" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/js/skills.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/offerts_forms/firm_form.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/offert-form.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/offert-form.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/register.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/register.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/SecurityController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/NewUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/OffertsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/OffertsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Form/OffertFormType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/OffertFormType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/menu.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/menu.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/offerts_forms/artist_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/offerts_forms/artist_form.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/register.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/register.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +23,13 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -86,7 +98,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Mabronet/oladuda.pl" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/offerts_forms" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -100,6 +112,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\GitRepo\myTone\templates\offerts_forms" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\GitRepo\myTone\assets\styles" />
       <recent name="C:\GitRepo\myTone\assets" />
@@ -131,7 +146,9 @@
       <workItem from="1615476318594" duration="6739000" />
       <workItem from="1615548571544" duration="7825000" />
       <workItem from="1615713001522" duration="9215000" />
-      <workItem from="1615829444987" duration="6879000" />
+      <workItem from="1615829444987" duration="7571000" />
+      <workItem from="1615837669991" duration="256000" />
+      <workItem from="1615905314436" duration="8222000" />
     </task>
     <task id="LOCAL-00001" summary="add jobs.css">
       <created>1615305289690</created>
@@ -159,6 +176,10 @@
       <screen x="-1920" y="-113" width="1280" height="680" />
     </state>
     <state x="-1546" y="-113" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.860/-1920.-113.1280.680@-1920.-113.1280.680" timestamp="1615834425165" />
+    <state x="-1549" y="-25" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1615910499217">
+      <screen x="-1920" y="-113" width="1280" height="680" />
+    </state>
+    <state x="-1549" y="-25" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.860/-1920.-113.1280.680@-1920.-113.1280.680" timestamp="1615910499217" />
     <state x="-1520" y="33" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1615714453346">
       <screen x="-1920" y="-113" width="1280" height="680" />
     </state>

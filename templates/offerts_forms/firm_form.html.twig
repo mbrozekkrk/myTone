@@ -1,0 +1,49 @@
+
+<html>
+<head>
+    {% block stylesheets %}
+        {#{{ encore_entry_link_tags('app') }}#}
+        {{ encore_entry_link_tags('offert-form') }}
+        {{ encore_entry_link_tags('home') }}
+    {% endblock %}
+    {% block javascripts %}
+        {#{{ encore_entry_script_tags('app') }}#}
+        {{ encore_entry_script_tags('skills_js') }}
+    {% endblock %}
+</head>
+{% block body%}
+    {% embed "app.html.twig" %}
+    {% endembed %}
+    <div class="form-container">
+        <!--<div class="tips triangle-up"></div>-->
+        <div class="artist-form">
+            <h1 id="try"> Let's try and apply!</h1>
+            <p>Here are some tips to follow:</p>
+            <ul>
+                <li>Be concrete</li>
+                <li>Give conditions on which you are prepared</li>
+                <li>Be ready to perform </li>
+                <li>Have fun!</li>
+            </ul>
+            <img src="../../assets/img/guitarist.png" alt="">
+            {{ form_start(offertForm) }}
+            {{ form_widget(offertForm) }}
+            {{ form_end(offertForm) }}
+        </div>
+        <div class="show-skills">
+            <h1>Skills:</h1>
+            <div v-if="skillsArray.length<=10" class="allSkills">
+                <div  class="skill"  v-for="skill in skillsArray" :key="skills"  >
+                    <button v-on:click="removeElement(skill)">X</button>
+                    {{ "{{ skill }}" }}
+                </div>
+                <p v-if="skillsArray.length>=10"> Only 10 skills allowed</p>
+            </div>
+
+        </div>
+        <div class="show-requirements">
+            <h1>Requirements:</h1>
+        </div>
+    </div>
+{%  endblock  %}
+</html>

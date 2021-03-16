@@ -16,6 +16,9 @@
 <body>
 {% embed "app.html.twig" %}
 {% endembed %}
+
+{% embed "menu.html.twig" %}
+{% endembed %}
 {% block body %}
     <div class="register-container">
         <div class="form-data">
@@ -29,16 +32,16 @@
             <h1>Your skills:</h1>
             <div v-if="skillsArray.length<=10" class="allSkills">
                <div  class="skill"  v-for="skill in skillsArray" :key="skills"  >
-                   {{ "{{ skill }}" }}
                    <button v-on:click="removeElement(skill)">X</button>
+                   {{ "{{ skill }}" }}
                </div>
+                <p v-if="skillsArray.length>=10"> Only 10 skills allowed</p>
             </div>
-            <p v-else> Too much!</p>
+
         </div>
 
+    </div>
 
-    </div>
-    </div>
 {% endblock %}
 
 </body>

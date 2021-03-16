@@ -37,6 +37,8 @@ class OffertFormType extends AbstractType
             ])
             ->add('skills',TextType::class,[
                 'attr'=>[
+                    'v-model' => "skills",
+                    '@keyup' => "addSkill",
                     'placeholder'=>'Type skill and press Comma',
                 ],
             ])

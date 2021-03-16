@@ -52,6 +52,8 @@ body{
     box-shadow:         inset 0 0 10px #000000;
     font-family: Arial;
     padding-left: 1rem;
+    background-color: #D58B7F;
+    color:white;
 
 }
 .register-container form label,select{
@@ -70,11 +72,11 @@ body{
     -webkit-box-shadow: inset 0 0 10px #000000;
     box-shadow:         inset 0 0 10px #000000;
     padding-left: 1rem;
-}
-#form_choice{
+    background-color: #D58B7F;
     width: 7vw;
-
+    color:black;
 }
+
 .register-container .create-btn{
     height: 5vh;
     width: 10vw;
