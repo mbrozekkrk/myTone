@@ -5,19 +5,23 @@
         {#{{ encore_entry_link_tags('app') }}#}
         {{ encore_entry_link_tags('offert-form') }}
         {{ encore_entry_link_tags('home') }}
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     {% endblock %}
     {% block javascripts %}
         {#{{ encore_entry_script_tags('app') }}#}
         {{ encore_entry_script_tags('skills_js') }}
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     {% endblock %}
 </head>
 {% block body%}
     {% embed "app.html.twig" %}
     {% endembed %}
     <div class="form-container">
-        <!--<div class="tips triangle-up"></div>-->
         <div class="artist-form">
             <h1 id="try"> Let's try and apply!</h1>
+            <!--<p data-toggle="tooltip" data-placement="left" title="Tooltip on left">Coś tam</p>-->
             <p>Here are some tips to follow:</p>
             <ul>
                 <li>Be concrete</li>
@@ -27,11 +31,11 @@
             </ul>
             <img src="../../assets/img/guitarist.png" alt="">
             {{ form_start(offertForm) }}
-            {{ form_widget(offertForm) }}
+                {{ form_widget(offertForm) }}
             {{ form_end(offertForm) }}
         </div>
         <div class="show-skills">
-            <h1>Skills:</h1>
+            <h1 v-if="skillsArray.length>0 ">Skills:</h1>
             <div v-if="skillsArray.length<=10" class="allSkills">
                 <div  class="skill"  v-for="skill in skillsArray" :key="skills"  >
                     <button v-on:click="removeElement(skill)">X</button>
@@ -39,10 +43,17 @@
                 </div>
                 <p v-if="skillsArray.length>=10"> Only 10 skills allowed</p>
             </div>
-
         </div>
+
         <div class="show-requirements">
-            <h1>Requirements:</h1>
+            <h1 v-if="requirementsArray.length>0 ">Requirements:</h1>
+            <div v-if="requirementsArray.length<=10" class="allSkills">
+                <div  class="skill"  v-for="requirement in requirementsArray" :key="requirements"  >
+                    <button v-on:click="removeElement(requirement)">X</button>
+                    {{ "{{ requirement }}" }}
+                </div>
+                <p v-if="requirementsArray.length>=10"> Only 10 skills allowed</p>
+            </div>
         </div>
     </div>
 {%  endblock  %}

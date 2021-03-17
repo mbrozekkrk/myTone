@@ -1,15 +1,13 @@
 body{
     margin:0;
-    text-align: center;
-
+    text-align: right;
 }
 
 .register-container{
     display: flex;
-    align-self: center;
     margin-top: 2rem;
-    width:50%;
-    height:80vh;
+    margin: 10rem;
+    /*height:80vh;*/
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 2rem;
     justify-content: center;
@@ -19,6 +17,7 @@ body{
 .register-container .form-data{
     justify-content: center;
     align-self: center;
+
 }
 .register-container .form-data label{
     display: none;

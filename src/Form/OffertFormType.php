@@ -28,18 +28,31 @@ class OffertFormType extends AbstractType
             ->add('presentation', TextareaType::class, [
                 'attr' => ['placeholder' => 'Describe yourself shortly'],
             ])
-            ->add('isAttending', ChoiceType::class, [
+            /*->add('isAttending', ChoiceType::class, [
                 'choices'  => [
                     'Maybe' => null,
                     'Yes' => true,
                     'No' => false,
                 ],
-            ])
+            ])*/
             ->add('skills',TextType::class,[
                 'attr'=>[
                     'v-model' => "skills",
                     '@keyup' => "addSkill",
-                    'placeholder'=>'Type skill and press Comma',
+                    'placeholder'=>'Skills',
+                    'data-toggle'=>"tooltip",
+                    'data-placement'=>"left",
+                    'title'=>"Type your skill and press comma"
+                ],
+            ])
+            ->add('requirements',TextType::class,[
+                'attr'=>[
+                    'v-model' => "requirements",
+                    '@keyup' => "addRequirement",
+                    'placeholder'=>'Requirements',
+                    'data-toggle'=>"tooltip",
+                    'data-placement'=>"left",
+                    'title'=>"Type your requirement according to event firm and press comma"
                 ],
             ])
             ->add('submit', SubmitType::class)

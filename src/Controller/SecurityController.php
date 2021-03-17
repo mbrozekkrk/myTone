@@ -5,11 +5,13 @@ namespace App\Controller;
 
 
 use App\Entity\User;
+use http\Client\Response;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
 use Symfony\Component\Form\Extension\Core\Type\PasswordType;
 use Symfony\Component\Form\Extension\Core\Type\SubmitType;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
+use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
 
 class SecurityController extends AbstractController
@@ -79,6 +81,33 @@ class SecurityController extends AbstractController
                 ])
             ->getForm();
 
+        $form->handleRequest($request);
+        if ($form->isSubmitted() && $form->isValid()) {
+            // perform some action...
+            dd($form->getData());
+            return $this->redirectToRoute('home');
+        }
+            //$this->formSubmit($request,$form);
+
+    }
+    public function formSubmit(Request $request, $form): Response{
+        $form->handleRequest($request);
+        if ($form->isSubmitted() && $form->isValid()) {
+            // $form->getData() holds the submitted values
+            // but, the original `$task` variable has also been updated
+            $task = $form->getData();
+
+            // ... perform some action, such as saving the task to the database
+            // for example, if Task is a Doctrine entity, save it!
+            // $entityManager = $this->getDoctrine()->getManager();
+            // $entityManager->persist($task);
+            // $entityManager->flush();
+
+            return $this->redirectToRoute('home');
+        }
+}
+    public function loginForm(){
+        //TODO
     }
 
 }

@@ -11,11 +11,12 @@ console.log('register.js dziala')
 }
 */
 new Vue({
-    //el: '#too-much',
     data(){
         return{
             skills:'',
             skillsArray:[],
+            requirements:'',
+            requirementsArray:[]
 
         };
     },
@@ -32,7 +33,17 @@ new Vue({
         },
         removeElement: function (index) {
             this.skillsArray.splice(index, 1);
-        }
+        },
+        addRequirement(e){
+            if(e.key === ',' && this.requirements && this.requirementsArray.length<=10){
+                if(!this.requirementsArray.includes(this.requirements)){
+                    this.requirementsArray.push(this.requirements)
+                }
+
+                this.requirements = ''
+
+            }
+        },
 
     }
     //template:'<p>[[ skills ]] </p>',
