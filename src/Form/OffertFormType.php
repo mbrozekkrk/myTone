@@ -22,7 +22,7 @@ class OffertFormType extends AbstractType
         $builder
             ->add('name',TextType::class,[
                 'attr'=>[
-                    'placeholder'=>'name',
+                    'placeholder'=>'Name',
                 ],
             ])
             ->add('presentation', TextareaType::class, [
@@ -36,6 +36,7 @@ class OffertFormType extends AbstractType
                 ],
             ])*/
             ->add('skills',TextType::class,[
+                'help' => 'What is your superpower? What will shock event manager? Type and press comma :)',
                 'attr'=>[
                     'v-model' => "skills",
                     '@keyup' => "addSkill",
@@ -43,9 +44,11 @@ class OffertFormType extends AbstractType
                     'data-toggle'=>"tooltip",
                     'data-placement'=>"left",
                     'title'=>"Type your skill and press comma"
+
                 ],
             ])
             ->add('requirements',TextType::class,[
+                'help' => 'What do you expect from event manager? You know already what to do!',
                 'attr'=>[
                     'v-model' => "requirements",
                     '@keyup' => "addRequirement",

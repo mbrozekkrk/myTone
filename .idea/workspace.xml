@@ -2,21 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7819b885-3afe-41b8-a923-486bd30d4569" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/myToneProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/myToneProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/skills.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/menu.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/offert-form.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/offert-form.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/register.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/register.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/OffertsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/OffertsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/SecurityController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Form/OffertFormType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/OffertFormType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/login.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/menu.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/menu.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/offerts_forms/firm_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/offerts_forms/firm_form.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/register.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/register.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +159,8 @@
       <workItem from="1615905314436" duration="8400000" />
       <workItem from="1615977592554" duration="2927000" />
       <workItem from="1615984960402" duration="3797000" />
-      <workItem from="1615991757701" duration="3422000" />
+      <workItem from="1615991757701" duration="4366000" />
+      <workItem from="1616186837789" duration="7187000" />
     </task>
     <task id="LOCAL-00001" summary="add jobs.css">
       <created>1615305289690</created>

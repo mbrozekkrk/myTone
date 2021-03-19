@@ -32,8 +32,16 @@ body .artist-form ul li{
     margin: 0.5rem;
 
 }
-body .tips #try{
-    color:#D58B7F;
+
+#offert_form_skills_help, #offert_form_requirements_help{
+    color:black;
+    font-size: 0.8rem;
+    padding: 0 12vw 0 12vw;
+
+}
+::placeholder {
+    color: rgba(1,2,3,0.5);
+
 }
 .artist-form{
     text-align: center;
@@ -52,7 +60,7 @@ body .tips #try{
 
 #offert_form_name, #offert_form_skills, #offert_form_requirements{
     width:30vw;
-    margin-bottom: 1rem;
+
     align-self: center;
     height: 6vh;
     border-radius: 1rem;
@@ -63,6 +71,9 @@ body .tips #try{
     font-family: Arial;
     padding: 1rem;
     background-color: #D58B7F;
+}
+#offert_form_name{
+    margin-bottom: 1rem;
 }
 #offert_form_presentation{
     background-color: #D58B7F;
