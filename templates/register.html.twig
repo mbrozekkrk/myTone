@@ -4,22 +4,19 @@
     <meta charset="UTF-8">
 
     {% block stylesheets %}
-        {#{{ encore_entry_link_tags('app') }}#}
+        {{ encore_entry_link_tags('app') }}
         {{ encore_entry_link_tags('register') }}
     {% endblock %}
 
     {% block javascripts %}
-        {#{{ encore_entry_script_tags('app') }}#}
+        {{ encore_entry_script_tags('app') }}
       {{ encore_entry_script_tags('register_js') }}
     {% endblock %}
 </head>
-<body>
-{% embed "app.html.twig" %}
-{% endembed %}
 
 
-{% embed "menu.html.twig" %}{% endembed %}
 {% block body %}
+    {% embed "app.html.twig" %}{% endembed %}
     <div class="register-container">
         <div class="form-data">
             <h1>Hello, dear.</h1>
@@ -28,21 +25,9 @@
             {{ form_end(registerForm) }}
         </div>
 
-        <div class="show-skills">
-            <h1>Your skills:</h1>
-            <div v-if="skillsArray.length<=10" class="allSkills">
-               <div  class="skill"  v-for="skill in skillsArray" :key="skills"  >
-                   <button v-on:click="removeElement(skill)">X</button>
-                   {{ "{{ skill }}" }}
-               </div>
-                <p v-if="skillsArray.length>=10"> Only 10 skills allowed</p>
-            </div>
-
-        </div>
-
     </div>
 
 {% endblock %}
 
-</body>
+
 </html>

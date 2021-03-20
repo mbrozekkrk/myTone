@@ -2,9 +2,15 @@ body{
     margin:0;
 }
 
+.home-container{
+    height: 100%;
+    overflow: hidden;
+}
 .title{
+    flex-grow: 1;
     background-image: url("../img/people.jpg");
     height: 60vh;
+
     background-size: 80vw 70vh;
     background-position: center bottom;
     background-size: cover;

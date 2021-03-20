@@ -4,27 +4,26 @@
         <meta charset="UTF-8">
 
         {% block stylesheets %}
-            {#{{ encore_entry_link_tags('app') }}#}
+            {{ encore_entry_link_tags('app') }}
             {{ encore_entry_link_tags('home') }}
         {% endblock %}
 
         {% block javascripts %}
-            {#{{ encore_entry_script_tags('app') }}#}
+            {{ encore_entry_script_tags('app') }}
             <script src="/js/test.js"></script>
         {% endblock %}
     </head>
-    <body>
-    {% embed "app.html.twig" %}
-    {% endembed %}
-        {% block body %}
+
+    {% block body %}
+
+        <div class="home-container">
+            {% embed "app.html.twig" %}{% endembed %}
             <div class="title">
                 <div class="greeting">
                     <h1>Hi, there.</h1>
                 </div>
             </div>
-
-        {% endblock %}
-    {% embed "homepage/offerts.html.twig" %}
-    {% endembed %}
-    </body>
+        </div>
+    {% embed "homepage/offerts.html.twig" %}{% endembed %}
+    {% endblock %}
 </html>

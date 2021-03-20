@@ -5,7 +5,7 @@
     {# Run `composer require symfony/webpack-encore-bundle`
            and uncomment the following Encore helpers to start using Symfony UX #}
     {% block stylesheets %}
-        {#{{ encore_entry_link_tags('app') }}#}
+        {{ encore_entry_link_tags('app') }}
         {{ encore_entry_link_tags('login') }}
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Brawler&family=Indie+Flower&family=Life+Savers&family=Short+Stack&display=swap" rel="stylesheet">
@@ -13,20 +13,17 @@
     {% endblock %}
 
     {% block javascripts %}
-        {#{{ encore_entry_script_tags('app') }}#}
-
-<!--        <script src="https://unpkg.com/vue@next"></script>-->
-        <!--<script src="/js/login_js.js"></script>-->
+        {{ encore_entry_script_tags('app') }}
 
         {{ encore_entry_script_tags('login_js') }}
     {% endblock %}
 </head>
 <body>
 {% block body %}
-    {% embed "app.html.twig" %}
-    {% endembed %}
-
+    <div class="all-login-container">
+    {% embed "app.html.twig" %}{% endembed %}
     <div class="login-container">
+
         <div class = "info">
             <div class="test"></div>
             <div class="text">
@@ -57,7 +54,7 @@
         </div>
 
     </div>
-
+    </div>
 {% endblock %}
 
 </body>

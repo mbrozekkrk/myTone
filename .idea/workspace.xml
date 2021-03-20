@@ -3,15 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="7819b885-3afe-41b8-a923-486bd30d4569" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/offert-form.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/offert-form.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/register.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/register.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/OffertFormType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/OffertFormType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/menu.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/menu.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/app.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/app.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/homepage/home.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/homepage/home.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/menu.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/offerts_forms/artist_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/offerts_forms/artist_form.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/offerts_forms/firm_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/offerts_forms/firm_form.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/register.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/register.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +161,8 @@
       <workItem from="1615977592554" duration="2927000" />
       <workItem from="1615984960402" duration="3797000" />
       <workItem from="1615991757701" duration="4366000" />
-      <workItem from="1616186837789" duration="7187000" />
+      <workItem from="1616186837789" duration="7821000" />
+      <workItem from="1616270282630" duration="4582000" />
     </task>
     <task id="LOCAL-00001" summary="add jobs.css">
       <created>1615305289690</created>
@@ -188,10 +190,10 @@
       <screen x="-1920" y="-113" width="1280" height="680" />
     </state>
     <state x="-1546" y="-113" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.860/-1920.-113.1280.680@-1920.-113.1280.680" timestamp="1615834425165" />
-    <state x="-1549" y="-25" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1615910499217">
+    <state x="-1549" y="-25" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1616272529196">
       <screen x="-1920" y="-113" width="1280" height="680" />
     </state>
-    <state x="-1549" y="-25" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.860/-1920.-113.1280.680@-1920.-113.1280.680" timestamp="1615910499217" />
+    <state x="-1549" y="-25" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.860/-1920.-113.1280.680@-1920.-113.1280.680" timestamp="1616272529196" />
     <state x="-1520" y="33" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1615714453346">
       <screen x="-1920" y="-113" width="1280" height="680" />
     </state>

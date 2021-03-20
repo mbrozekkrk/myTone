@@ -1,6 +1,9 @@
 body {
     background-color: #D58B7F;
 }
+.logo{
+    position: sticky;
+}
 .logo a{
     text-decoration: none;
     text-underline: none;

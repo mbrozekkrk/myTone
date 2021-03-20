@@ -2,18 +2,17 @@
 <html>
     <head>
         {% block stylesheets %}
-            {#{{ encore_entry_link_tags('app') }}#}
+            {{ encore_entry_link_tags('app') }}
             {{ encore_entry_link_tags('offert-form') }}
             {{ encore_entry_link_tags('home') }}
         {% endblock %}
         {% block javascripts %}
-            {#{{ encore_entry_script_tags('app') }}#}
+            {{ encore_entry_script_tags('app') }}
             {{ encore_entry_script_tags('skills_js') }}
         {% endblock %}
     </head>
     {% block body%}
-        {% embed "app.html.twig" %}
-        {% endembed %}
+
         <div class="form-container">
             <!--<div class="tips triangle-up"></div>-->
             <div class="artist-form">

@@ -121,5 +121,5 @@ nav .want-more h3{
     flex-direction: column;
 }
 #app .navbar{
-    position:static;
+    position: fixed;
 }
