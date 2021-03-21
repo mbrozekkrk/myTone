@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7819b885-3afe-41b8-a923-486bd30d4569" name="Default Changelist" comment="">
+    <list default="true" id="7819b885-3afe-41b8-a923-486bd30d4569" name="Default Changelist" comment="add jobs.css">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/myToneProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/myToneProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/menu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/app.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/app.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/homepage/home.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/homepage/home.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/login.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/menu.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/offerts_forms/artist_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/offerts_forms/artist_form.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/offerts_forms/firm_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/offerts_forms/firm_form.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/register.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/register.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +99,27 @@
       <path value="$PROJECT_DIR$/vendor/psr/http-message" />
       <path value="$PROJECT_DIR$/vendor/psr/http-client" />
       <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/vendor/friendsofphp/proxy-manager-lts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/doctrine-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/proxy-manager-bridge" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/sql-formatter" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-zendframework-bridge" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-eventmanager" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-code" />
+      <path value="$PROJECT_DIR$/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
     </include_path>
   </component>
   <component name="ProjectId" id="1pOO6jzSFvI1f5rQKMqTaF0zI0J" />
@@ -105,8 +128,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/offerts_forms" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -116,20 +145,20 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/assets/styles/app.css" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\GitRepo\myTone\templates\offerts_forms" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\GitRepo\myTone\assets\styles" />
       <recent name="C:\GitRepo\myTone\assets" />
       <recent name="C:\GitRepo\myTone\assets\js" />
       <recent name="C:\GitRepo\myTone\templates" />
       <recent name="C:\GitRepo\myTone\templates\login" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\GitRepo\myTone\templates\offerts_forms" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -162,7 +191,8 @@
       <workItem from="1615984960402" duration="3797000" />
       <workItem from="1615991757701" duration="4366000" />
       <workItem from="1616186837789" duration="7821000" />
-      <workItem from="1616270282630" duration="4582000" />
+      <workItem from="1616270282630" duration="4933000" />
+      <workItem from="1616321805281" duration="14619000" />
     </task>
     <task id="LOCAL-00001" summary="add jobs.css">
       <created>1615305289690</created>
@@ -177,11 +207,18 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.env" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add jobs.css" />
     <option name="LAST_COMMIT_MESSAGE" value="add jobs.css" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="-1687" y="-113" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616330055522">
+      <screen x="-1920" y="-113" width="1280" height="680" />
+    </state>
+    <state x="-1687" y="-113" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860/-1920.-113.1280.680@-1920.-113.1280.680" timestamp="1616330055522" />
     <state x="-1474" y="-90" key="#com.intellij.ide.util.MemberChooser" timestamp="1615834277069">
       <screen x="-1920" y="-113" width="1280" height="680" />
     </state>
@@ -199,10 +236,10 @@
     </state>
     <state x="-1520" y="33" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1440.860/-1920.-113.1280.680@-1920.-113.1280.680" timestamp="1615714453346" />
     <state x="450" y="185" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1440.860/-1920.-113.1280.680@0.0.1440.860" timestamp="1615713258448" />
-    <state x="-1656" y="-113" key="CommitChangelistDialog2" timestamp="1615305286320">
+    <state x="-1656" y="-113" key="CommitChangelistDialog2" timestamp="1616322729771">
       <screen x="-1920" y="-113" width="1280" height="680" />
     </state>
-    <state x="-1656" y="-113" key="CommitChangelistDialog2/0.0.1440.860/-1920.-113.1280.680@-1920.-113.1280.680" timestamp="1615305286320" />
+    <state x="-1656" y="-113" key="CommitChangelistDialog2/0.0.1440.860/-1920.-113.1280.680@-1920.-113.1280.680" timestamp="1616322729771" />
     <state x="-1827" y="-20" width="1095" height="495" key="DiffContextDialog" timestamp="1615219098352">
       <screen x="-1920" y="-113" width="1280" height="680" />
     </state>
@@ -220,18 +257,22 @@
       <screen x="-1920" y="-113" width="1280" height="680" />
     </state>
     <state x="-1443" y="151" key="NewPhpFileDialog/0.0.1440.860/-1920.-113.1280.680@-1920.-113.1280.680" timestamp="1615478940896" />
-    <state x="-1778" y="-113" key="SettingsEditor" timestamp="1615057952324">
+    <state x="-1778" y="-113" key="SettingsEditor" timestamp="1616328543148">
       <screen x="-1920" y="-113" width="1280" height="680" />
     </state>
-    <state x="-1778" y="-113" key="SettingsEditor/0.0.1440.860/-1920.-113.1280.680@-1920.-113.1280.680" timestamp="1615057952324" />
+    <state x="-1778" y="-113" key="SettingsEditor/0.0.1440.860/-1920.-113.1280.680@-1920.-113.1280.680" timestamp="1616328543148" />
+    <state x="-1572" y="-40" width="585" height="534" key="find.popup" timestamp="1616330846486">
+      <screen x="-1920" y="-113" width="1280" height="680" />
+    </state>
+    <state x="-1572" y="-40" width="585" height="534" key="find.popup/0.0.1440.860/-1920.-113.1280.680@-1920.-113.1280.680" timestamp="1616330846486" />
     <state x="-1623" y="95" key="run.anything.popup" timestamp="1615113639888">
       <screen x="-1920" y="-113" width="1280" height="680" />
     </state>
     <state x="-1623" y="95" key="run.anything.popup/0.0.1440.860/-1920.-113.1280.680@-1920.-113.1280.680" timestamp="1615113639888" />
-    <state x="-1617" y="-112" width="672" height="678" key="search.everywhere.popup" timestamp="1615715165684">
+    <state x="-1617" y="-112" width="672" height="678" key="search.everywhere.popup" timestamp="1616322727973">
       <screen x="-1920" y="-113" width="1280" height="680" />
     </state>
-    <state x="-1617" y="-112" width="672" height="678" key="search.everywhere.popup/0.0.1440.860/-1920.-113.1280.680@-1920.-113.1280.680" timestamp="1615715165684" />
+    <state x="-1617" y="-112" width="672" height="678" key="search.everywhere.popup/0.0.1440.860/-1920.-113.1280.680@-1920.-113.1280.680" timestamp="1616322727973" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

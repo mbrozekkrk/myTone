@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
     <head>
         <meta charset="UTF-8">
 
@@ -15,9 +16,9 @@
     </head>
 
     {% block body %}
+        {% embed "app.html.twig" %}{% endembed %}
+        <div class="home-container" >
 
-        <div class="home-container">
-            {% embed "app.html.twig" %}{% endembed %}
             <div class="title">
                 <div class="greeting">
                     <h1>Hi, there.</h1>

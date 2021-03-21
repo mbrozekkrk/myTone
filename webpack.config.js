@@ -33,7 +33,7 @@ Encore
     .addEntry('register','./assets/styles/register.css')
     .addEntry('login','./assets/styles/login.css')
 
-    .addEntry('menu','./assets/styles/menu.css')
+
     .addEntry('offerts','./assets/styles/offerts.css')
     .addEntry('home','./assets/styles/home.css')
     .addEntry('jobs','./assets/styles/jobs.css')
