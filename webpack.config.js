@@ -29,6 +29,7 @@ Encore
     .addEntry('login_js', './assets/js/login.js')
     .addEntry('register_js', './assets/js/register.js')
     .addEntry('skills_js', './assets/js/skills.js')
+    .addEntry('jobs_js', './assets/js/jobs.js')
 
     .addEntry('register','./assets/styles/register.css')
     .addEntry('login','./assets/styles/login.css')

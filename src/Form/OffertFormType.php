@@ -58,7 +58,6 @@ class OffertFormType extends AbstractType
                     'title'=>"Type your requirement according to event firm and press comma"
                 ],
             ])
-            ->add('submit', SubmitType::class)
 
             ;
     }

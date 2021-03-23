@@ -2,14 +2,6 @@ import Vue from "vue";
 
 console.log('register.js dziala')
 
-/*export default {
-    data(){
-        return{
-            skills:'love'
-        }
-    }
-}
-*/
 new Vue({
     //el: '#too-much',
     data(){
@@ -25,9 +17,7 @@ new Vue({
                 if(!this.skillsArray.includes(this.skills)){
                     this.skillsArray.push(this.skills)
                 }
-
                 this.skills = ''
-
             }
         },
         removeElement: function (index) {
@@ -35,7 +25,6 @@ new Vue({
         }
 
     }
-    //template:'<p>[[ skills ]] </p>',
-    //delimiter: ['{}'],
+
 }).$mount(".register-container");
 

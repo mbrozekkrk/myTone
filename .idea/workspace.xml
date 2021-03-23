@@ -2,18 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7819b885-3afe-41b8-a923-486bd30d4569" name="Default Changelist" comment="add jobs.css">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/myToneProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/myToneProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/jobs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/skills.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/menu.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/offert-form.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/offert-form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/offerts.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/offerts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/OffertFormType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/OffertFormType.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/app.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/app.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/homepage/home.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/homepage/home.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/homepage/offerts.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/homepage/offerts.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/offerts_forms/artist_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/offerts_forms/artist_form.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/offerts_forms/firm_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/offerts_forms/firm_form.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/user-panel/jobs.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/user-panel/jobs.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -192,7 +194,8 @@
       <workItem from="1615991757701" duration="4366000" />
       <workItem from="1616186837789" duration="7821000" />
       <workItem from="1616270282630" duration="4933000" />
-      <workItem from="1616321805281" duration="14619000" />
+      <workItem from="1616321805281" duration="14726000" />
+      <workItem from="1616486377971" duration="14380000" />
     </task>
     <task id="LOCAL-00001" summary="add jobs.css">
       <created>1615305289690</created>

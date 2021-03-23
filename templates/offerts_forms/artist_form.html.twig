@@ -5,6 +5,8 @@
             {{ encore_entry_link_tags('app') }}
             {{ encore_entry_link_tags('offert-form') }}
             {{ encore_entry_link_tags('home') }}
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+            <link href="https://fonts.googleapis.com/css2?family=Brawler&family=Indie+Flower&family=Life+Savers&family=Short+Stack&display=swap" rel="stylesheet">
         {% endblock %}
         {% block javascripts %}
             {{ encore_entry_script_tags('app') }}
@@ -12,9 +14,33 @@
         {% endblock %}
     </head>
     {% block body%}
+        <div class="offert-details">
+            <h1>Event</h1>
+            <p class="date"> <i class="far fa-calendar-check"></i>22.03.2022 5 p.m.</p>
+            <p>
+                It is a long established fact that a reader will be distracted by the readable content of a page when
+                looking at its layout.
+                The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
+                as opposed to using 'Content here, content here', making it look like readable English.
+                Many desktop publishing packages and web page
+                editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will
+                uncover many web sites still in their infancy. Various versions have evolved over the years,
+                sometimes by accident, sometimes on purpose (injected humour and the like).
 
+
+            </p>
+
+            <div class="must-haves">
+                <h2>Must have:</h2>
+                <ul>
+                    <li>Your own microphones</li>
+                    <li>Guitarist & pianist</li>
+                    <li> English language</li>
+                </ul>
+            </div>
+
+        </div>
         <div class="form-container">
-            <!--<div class="tips triangle-up"></div>-->
             <div class="artist-form">
                 <h1 id="try"> Let's try and apply!</h1>
                 <p>Here are some tips to follow:</p>
@@ -27,10 +53,12 @@
                 <img src="../../assets/img/guitarist.png" alt="">
                 {{ form_start(offertForm) }}
                     {{ form_widget(offertForm) }}
+                <b-button type="submit">Submit</b-button>
                 {{ form_end(offertForm) }}
+
             </div>
             <div class="show-skills">
-                <h1>Skills:</h1>
+                <h1 v-if="skillsArray.length>0 ">Skills:</h1>
                 <div v-if="skillsArray.length<=10" class="allSkills">
                     <div  class="skill"  v-for="skill in skillsArray" :key="skills"  >
                         <button v-on:click="removeElement(skill)">X</button>
@@ -41,8 +69,25 @@
 
             </div>
             <div class="show-requirements">
-                <h1>Requirements:</h1>
+                <h1 v-if="requirementsArray.length>0 ">Requirements:</h1>
+                <div v-if="requirementsArray.length<=10" class="allSkills">
+                    <div  class="skill"  v-for="requirement in requirementsArray" :key="requirements"  >
+                        <button v-on:click="removeElement(requirement)">X</button>
+                        {{ "{{ requirement }}" }}
+                    </div>
+                    <p v-if="requirementsArray.length>=10"> Only 10 skills allowed</p>
+                </div>
             </div>
+        </div>
+
+        <div class="applicants">
+            <h1>Those who already applied:</h1>
+            <ul>
+                <li>Ola</li>
+                <li>Kasia</li>
+                <li>Krzyś</li>
+                <li>Emil</li>
+            </ul>
         </div>
     {%  endblock  %}
 </html>

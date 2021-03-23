@@ -1,8 +1,16 @@
+.events{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 50vh;
+    margin: 5rem;
+    justify-items: right;
+}
 .event {
+    text-align: right;
     background-color: black;
     margin:1rem;
-    width:25%;
-    height:45vh;
+    width: 20vw ;
+    height:40vh;
     /*border-radius: 1rem;*/
     text-align: center;
     -webkit-box-shadow: 8px 12px 15px 5px rgba(68, 68, 68, 0.7);
@@ -10,6 +18,7 @@
     box-shadow:         8px 12px 15px 5px rgba(68, 68, 68, 0.7);
 
 }
+
 .event .event-details{
     background-color: white;
     height: 48%;
@@ -39,7 +48,7 @@
     padding: 0.3rem;
 }
 .event button{
-    height: 5vh;
+
     width: 7vw;
     color: white;
     border:none;

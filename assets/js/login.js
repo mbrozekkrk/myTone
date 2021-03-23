@@ -1,6 +1,5 @@
 import Vue from 'vue';
 
-console.log('js dziala');
 
 var app = new Vue({
     el: '.vue-test',

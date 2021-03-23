@@ -11,10 +11,10 @@ body {
 .logo h1{
     color:white;
     padding-top:2vh;
+    padding-bottom:2vh;
     font-size: 2.3rem;
     text-align: center;
     background-color: black;
-    height: 8vh;
     margin:0;
 }
 .logo #my{
@@ -82,7 +82,7 @@ nav .my-profile{
     padding-bottom: 2rem;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     text-align: center;
 }
 #nav-collapse > ul > li{
@@ -95,7 +95,7 @@ nav .my-profile{
 nav .find{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
 }
 nav .find h1{
     color:#D58B7F;
@@ -139,6 +139,7 @@ nav .want-more h3{
 }
 .navbar-nav{
     flex-direction: row;
+
 
 }
 #nav-collapse > ul{

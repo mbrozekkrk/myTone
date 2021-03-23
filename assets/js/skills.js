@@ -1,15 +1,7 @@
 import Vue from "vue";
 
-console.log('register.js dziala')
+//:skillsArray="'{{ $user->profile->birthdate->format('m-d-Y') }}'"
 
-/*export default {
-    data(){
-        return{
-            skills:'love'
-        }
-    }
-}
-*/
 new Vue({
     data(){
         return{
@@ -46,7 +38,5 @@ new Vue({
         },
 
     }
-    //template:'<p>[[ skills ]] </p>',
-    //delimiter: ['{}'],
 }).$mount(".form-container");
 

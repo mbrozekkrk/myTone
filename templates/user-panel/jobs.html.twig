@@ -1,7 +1,12 @@
 <head>
     {% block stylesheets %}
-        {{ encore_entry_link_tags('app') }}
+         {{ encore_entry_link_tags('app') }}
         {{ encore_entry_link_tags('jobs') }}
+    {% endblock %}
+
+    {% block javascripts %}
+    {#  {{ encore_entry_script_tags('app') }}#}
+        {{ encore_entry_script_tags('jobs_js') }}
     {% endblock %}
 </head>
 
@@ -16,20 +21,25 @@
     <div class="jobs-container">
         <h1>My jobs</h1>
         <div class="buttons">
-            <button class ='btn-switch'>Done</button>
-            <button class ='btn-switch'>To do</button>
+            <button v-on:click="done" class ='btn-switch'>Done</button>
+            <button v-on:click="toDo" class ='btn-switch'>To do</button>
         </div>
         <div class="jobs">
-            <div class="job">
+            <div class="to-do" v-if='toDoClicked' >
+                <div class="job">
                     <p>valentines day</p>
                     <p>25.02.2021</p>
                     <p><a href="#">view more >></a></p>
+                </div>
             </div>
-            <div class="job">
-                <p>valentines day</p>
-                <p>25.02.2021</p>
-                <p><a href="#">view more >></a></p>
-            </div>
+           <div class="done" v-if='doneClicked'>
+               <div class="job">
+                   <p>Coctail Party</p>
+                   <p>25.04.2023</p>
+                   <p><a href="#">view more >></a></p>
+               </div>
+           </div>
+
         </div>
 
     </div>
