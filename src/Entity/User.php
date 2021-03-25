@@ -1,101 +1,136 @@
 <?php
 
-
 namespace App\Entity;
 
+use App\Repository\UserRepository;
+use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\Common\Collections\Collection;
+use Doctrine\ORM\Mapping as ORM;
 
+/**
+ * @ORM\Entity(repositoryClass=UserRepository::class)
+ * @ORM\Table(name="`user`")
+ */
 class User
 {
-
-    protected $login;
-    protected $password;
-    protected  $choice;
-    protected $skills;
-    protected $addedSkills;
-    protected $confirmPassword;
+    /**
+     * @ORM\Id
+     * @ORM\GeneratedValue
+     * @ORM\Column(type="integer")
+     */
+    private $id;
 
     /**
-     * @return mixed
+     * @ORM\Column(type="string", length=255)
      */
-    public function getConfirmPassword()
-    {
-        return $this->confirmPassword;
-    }
+    private $email;
 
     /**
-     * @param mixed $confirmPassword
+     * @ORM\Column(type="string", length=255)
      */
-    public function setConfirmPassword($confirmPassword): void
-    {
-        $this->confirmPassword = $confirmPassword;
-    }
+    private $password;
 
     /**
-     * @return mixed
+     * @ORM\Column(type="string", length=100)
      */
-    public function getAddedSkills()
-    {
-        return $this->addedSkills;
-    }
+    private $account_type;
 
     /**
-     * @param mixed $addedSkills
+     * @ORM\OneToOne(targetEntity=UserDetails::class, inversedBy="yes", cascade={"persist", "remove"})
+     * @ORM\JoinColumn(nullable=false)
      */
-    public function setAddedSkills($addedSkills): void
-    {
-        $this->addedSkills = $addedSkills;
-    }
+    private $user_details_id;
 
     /**
-     * @return mixed
+     * @ORM\OneToMany(targetEntity=Offert::class, mappedBy="event_firm")
      */
-    public function getSkills()
+    private $yes;
+
+    public function __construct()
     {
-        return $this->skills;
+        $this->yes = new ArrayCollection();
     }
 
-    /**
-     * @param mixed $skills
-     */
-    public function setSkills($skills): void
+    public function getId(): ?int
     {
-        $this->skills = $skills;
+        return $this->id;
     }
 
-
-    public function getLogin()
+    public function getEmail(): ?string
     {
-        return $this->login;
+        return $this->email;
     }
 
-
-    public function setLogin($login): void
+    public function setEmail(string $email): self
     {
-        $this->login = $login;
+        $this->email = $email;
+
+        return $this;
     }
 
-
-    public function getPassword()
+    public function getPassword(): ?string
     {
         return $this->password;
     }
 
-
-    public function setPassword($password): void
+    public function setPassword(string $password): self
     {
         $this->password = $password;
+
+        return $this;
     }
 
-    public function getChoice()
+    public function getAccountType(): ?string
     {
-        return $this->choice;
+        return $this->account_type;
     }
 
-
-    public function setChoice($choice): void
+    public function setAccountType(string $account_type): self
     {
-        $this->choice = $choice;
+        $this->account_type = $account_type;
+
+        return $this;
     }
 
+    public function getUserDetailsId(): ?UserDetails
+    {
+        return $this->user_details_id;
+    }
 
+    public function setUserDetailsId(UserDetails $user_details_id): self
+    {
+        $this->user_details_id = $user_details_id;
+
+        return $this;
+    }
+
+    /**
+     * @return Collection|Offert[]
+     */
+    public function getYes(): Collection
+    {
+        return $this->yes;
+    }
+
+    public function addYe(Offert $ye): self
+    {
+        if (!$this->yes->contains($ye)) {
+            $this->yes[] = $ye;
+            $ye->setEventFirm($this);
+        }
+
+        return $this;
+    }
+
+    public function removeYe(Offert $ye): self
+    {
+        if ($this->yes->removeElement($ye)) {
+            // set the owning side to null (unless already changed)
+            if ($ye->getEventFirm() === $this) {
+                $ye->setEventFirm(null);
+            }
+        }
+
+        return $this;
+    }
 }

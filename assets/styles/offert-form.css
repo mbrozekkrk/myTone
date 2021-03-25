@@ -11,15 +11,23 @@ body{
 .offert-details{
     text-align: center;
     font-family: 'Life Savers', cursive;
+    display:flex;
+    flex-direction: column;
 }
 .offert-details h1{
     font-size: 3rem;
     margin: 2rem;
+    background-color:black;
 }
 .offert-details .date{
     border: solid 1px black;
     padding: 0.5rem;
+    width: 20vw;
+    align-self: center;
 
+}
+body > div.offert-details > p.date > i{
+    padding:0.5rem;
 }
 .offert-details ul{
     list-style-type: none;

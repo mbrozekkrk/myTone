@@ -2,21 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7819b885-3afe-41b8-a923-486bd30d4569" name="Default Changelist" comment="add jobs.css">
-      <change afterPath="$PROJECT_DIR$/assets/js/jobs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b0b46820-8c27-4b2b-b3f5-da18f37a6dc8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b0b46820-8c27-4b2b-b3f5-da18f37a6dc8/storage_v2/_src_/database/d8rh0f6til2vn5.bHhjzQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b0b46820-8c27-4b2b-b3f5-da18f37a6dc8/storage_v2/_src_/database/d8rh0f6til2vn5.bHhjzQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b0b46820-8c27-4b2b-b3f5-da18f37a6dc8/storage_v2/_src_/database/d8rh0f6til2vn5.bHhjzQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b0b46820-8c27-4b2b-b3f5-da18f37a6dc8/storage_v2/_src_/database/d8rh0f6til2vn5.bHhjzQ/schema/public.abK9xQ.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/register.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/skills.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/offert-form.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/offert-form.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/offerts.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/offerts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/OffertFormType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/OffertFormType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/app.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/app.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/homepage/offerts.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/homepage/offerts.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/offerts_forms/artist_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/offerts_forms/artist_form.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/offerts_forms/firm_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/offerts_forms/firm_form.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/user-panel/jobs.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/user-panel/jobs.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +192,9 @@
       <workItem from="1616186837789" duration="7821000" />
       <workItem from="1616270282630" duration="4933000" />
       <workItem from="1616321805281" duration="14726000" />
-      <workItem from="1616486377971" duration="14380000" />
+      <workItem from="1616486377971" duration="14585000" />
+      <workItem from="1616516197471" duration="7461000" />
+      <workItem from="1616699995575" duration="9300000" />
     </task>
     <task id="LOCAL-00001" summary="add jobs.css">
       <created>1615305289690</created>
@@ -218,18 +217,19 @@
     <option name="LAST_COMMIT_MESSAGE" value="add jobs.css" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1687" y="-113" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616330055522">
-      <screen x="-1920" y="-113" width="1280" height="680" />
+    <state x="262" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616523519683">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="-1687" y="-113" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860/-1920.-113.1280.680@-1920.-113.1280.680" timestamp="1616330055522" />
-    <state x="-1474" y="-90" key="#com.intellij.ide.util.MemberChooser" timestamp="1615834277069">
+    <state x="262" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860/-1920.-113.1280.680@0.0.1440.860" timestamp="1616523519683" />
+    <state x="-1474" y="-90" key="#com.intellij.ide.util.MemberChooser" timestamp="1616707289022">
       <screen x="-1920" y="-113" width="1280" height="680" />
     </state>
-    <state x="-1474" y="-90" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860/-1920.-113.1280.680@-1920.-113.1280.680" timestamp="1615834277069" />
-    <state x="-1546" y="-113" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1615834425165">
+    <state x="-1474" y="-90" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860/-1920.-113.1280.680@-1920.-113.1280.680" timestamp="1616707289022" />
+    <state x="-1546" y="-113" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1616706626343">
       <screen x="-1920" y="-113" width="1280" height="680" />
     </state>
-    <state x="-1546" y="-113" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.860/-1920.-113.1280.680@-1920.-113.1280.680" timestamp="1615834425165" />
+    <state x="-1546" y="-113" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.860/-1920.-113.1280.680@-1920.-113.1280.680" timestamp="1616706626343" />
     <state x="-1549" y="-25" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1616272529196">
       <screen x="-1920" y="-113" width="1280" height="680" />
     </state>
@@ -264,6 +264,18 @@
       <screen x="-1920" y="-113" width="1280" height="680" />
     </state>
     <state x="-1778" y="-113" key="SettingsEditor/0.0.1440.860/-1920.-113.1280.680@-1920.-113.1280.680" timestamp="1616328543148" />
+    <state x="-1389" y="115" width="312" height="243" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1616708838583">
+      <screen x="-1920" y="-113" width="1280" height="680" />
+    </state>
+    <state x="-1389" y="115" width="312" height="243" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1440.860/-1920.-113.1280.680@-1920.-113.1280.680" timestamp="1616708838583" />
+    <state x="-1699" y="-113" key="com.intellij.database.dbimport.ImportDialog" timestamp="1616709375733">
+      <screen x="-1920" y="-113" width="1280" height="680" />
+    </state>
+    <state x="-1699" y="-113" key="com.intellij.database.dbimport.ImportDialog/0.0.1440.860/-1920.-113.1280.680@-1920.-113.1280.680" timestamp="1616709375733" />
+    <state x="-1436" y="44" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1616707579437">
+      <screen x="-1920" y="-113" width="1280" height="680" />
+    </state>
+    <state x="-1436" y="44" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1440.860/-1920.-113.1280.680@-1920.-113.1280.680" timestamp="1616707579437" />
     <state x="-1572" y="-40" width="585" height="534" key="find.popup" timestamp="1616330846486">
       <screen x="-1920" y="-113" width="1280" height="680" />
     </state>
