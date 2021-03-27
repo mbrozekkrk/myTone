@@ -42,13 +42,20 @@ class User
     private $user_details_id;
 
     /**
-     * @ORM\OneToMany(targetEntity=Offert::class, mappedBy="event_firm")
+     * @ORM\ManyToMany(targetEntity=Requirement::class, mappedBy="user_id")
      */
-    private $yes;
+    private $requirement;
+
+    /**
+     * @ORM\ManyToMany(targetEntity=Skill::class, mappedBy="user_id")
+     */
+    private $skill;
 
     public function __construct()
     {
-        $this->yes = new ArrayCollection();
+
+        $this->requirement = new ArrayCollection();
+        $this->skill = new ArrayCollection();
     }
 
     public function getId(): ?int
@@ -104,31 +111,57 @@ class User
         return $this;
     }
 
+
+
     /**
-     * @return Collection|Offert[]
+     * @return Collection|Requirement[]
      */
-    public function getYes(): Collection
+    public function getRequirement(): Collection
     {
-        return $this->yes;
+        return $this->requirement;
     }
 
-    public function addYe(Offert $ye): self
+    public function addRequirement(Requirement $requirement): self
     {
-        if (!$this->yes->contains($ye)) {
-            $this->yes[] = $ye;
-            $ye->setEventFirm($this);
+        if (!$this->requirement->contains($requirement)) {
+            $this->requirement[] = $requirement;
+            $requirement->addUserId($this);
         }
 
         return $this;
     }
 
-    public function removeYe(Offert $ye): self
+    public function removeRequirement(Requirement $requirement): self
     {
-        if ($this->yes->removeElement($ye)) {
-            // set the owning side to null (unless already changed)
-            if ($ye->getEventFirm() === $this) {
-                $ye->setEventFirm(null);
-            }
+        if ($this->requirement->removeElement($requirement)) {
+            $requirement->removeUserId($this);
+        }
+
+        return $this;
+    }
+
+    /**
+     * @return Collection|Skill[]
+     */
+    public function getSkill(): Collection
+    {
+        return $this->skill;
+    }
+
+    public function addSkill(Skill $skill): self
+    {
+        if (!$this->skill->contains($skill)) {
+            $this->skill[] = $skill;
+            $skill->addUserId($this);
+        }
+
+        return $this;
+    }
+
+    public function removeSkill(Skill $skill): self
+    {
+        if ($this->skill->removeElement($skill)) {
+            $skill->removeUserId($this);
         }
 
         return $this;
