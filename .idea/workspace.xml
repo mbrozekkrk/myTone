@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7819b885-3afe-41b8-a923-486bd30d4569" name="Default Changelist" comment="add jobs.css">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/OffertsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/OffertController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +125,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/offerts_forms" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PerfumeShop" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -185,6 +185,7 @@
       <workItem from="1616486377971" duration="14585000" />
       <workItem from="1616516197471" duration="7461000" />
       <workItem from="1616699995575" duration="9300000" />
+      <workItem from="1617038311481" duration="1040000" />
     </task>
     <task id="LOCAL-00001" summary="add jobs.css">
       <created>1615305289690</created>
@@ -216,9 +217,10 @@
       <screen x="-1920" y="-113" width="1280" height="680" />
     </state>
     <state x="-1474" y="-90" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860/-1920.-113.1280.680@-1920.-113.1280.680" timestamp="1616707289022" />
-    <state x="-1546" y="-113" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1616706626343">
-      <screen x="-1920" y="-113" width="1280" height="680" />
+    <state x="374" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1616845456868">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state x="374" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1616845456868" />
     <state x="-1546" y="-113" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.860/-1920.-113.1280.680@-1920.-113.1280.680" timestamp="1616706626343" />
     <state x="-1549" y="-25" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1616272529196">
       <screen x="-1920" y="-113" width="1280" height="680" />
@@ -237,11 +239,12 @@
       <screen x="-1920" y="-113" width="1280" height="680" />
     </state>
     <state x="-1827" y="-20" width="1095" height="495" key="DiffContextDialog/0.0.1440.860/-1920.-113.1280.680@-1920.-113.1280.680" timestamp="1615219098352" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1615382635095">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="474" y="121" key="FileChooserDialogImpl" timestamp="1617041901100">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1615382635095" />
     <state x="-1499" y="-17" key="FileChooserDialogImpl/0.0.1440.860/-1920.-113.1280.680@-1920.-113.1280.680" timestamp="1615219046990" />
+    <state x="474" y="121" key="FileChooserDialogImpl/0.0.1440.860/-1920.-113.1280.680@0.0.1440.860" timestamp="1617041901100" />
     <state x="-1483" y="-49" key="NewPhpClassDialog" timestamp="1615721666376">
       <screen x="-1920" y="-113" width="1280" height="680" />
     </state>
